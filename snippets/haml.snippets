@@ -28,3 +28,40 @@ snippet p
 	%p
 snippet plead
 	%p.lead
+snippet list
+	%ul
+		%li
+			${1:}
+snippet orderlist
+	%ol
+		%li
+			${1:}
+snippet unstyledlist
+	%ul.list-unstyled
+		%li
+			${1:}
+snippet alertdanger
+	.alert.alert-danger
+		%button.close{"aria-hidden" => "true", "data-dismiss" => "alert", :type => "button"} &times;
+		%strong ${1:Title!}
+		${2:Alert body ...}
+snippet alertinfo
+	.alert.alert-info
+		%button.close{"aria-hidden" => "true", "data-dismiss" => "alert", :type => "button"} &times;
+		%strong ${1:Title!}
+		${2:Alert body ...}
+snippet alertsuccess
+	.alert.alert-success
+		%button.close{"aria-hidden" => "true", "data-dismiss" => "alert", :type => "button"} &times;
+		%strong ${1:Title!}
+		${2:Alert body ...}
+snippet alertwarning
+	.alert.alert-warning
+		%button.close{"aria-hidden" => "true", "data-dismiss" => "alert", :type => "button"} &times;
+		%strong ${1:Title!}
+		${2:Alert body ...}
+snippet alert
+	.alert.alert-
+		%button.close{"aria-hidden" => "true", "data-dismiss" => "alert", :type => "button"} &times;
+		%strong ${1:Title!}
+		${2:Alert body ...}
