@@ -1,9 +1,6 @@
 Vim bootstrap-v-3.2.0-snippets
 ==========================
 
-Bootstrap Snippets
-==================
-
 This repository contains  Haml snippet files for Twitter Bootstrap, for the famous [snipmate](https://github.com/garbas/vim-snipmate) plugin for Vim.
 
 Dependencies
