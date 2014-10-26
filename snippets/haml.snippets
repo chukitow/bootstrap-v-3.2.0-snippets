@@ -159,3 +159,10 @@ snippet icon
 	%span.glyphicon.glyphicon-${1:icon}
 snippet img
 	%img.img-responsive{:alt => "${3:Image}", :src => ""}
+snippet jumbotron
+	.jumbotron
+	  .container
+		%h1 ${1:Hello, world!}
+		%p ${2:Contents ...}
+		%p
+		  %a.btn.btn-primary.btn-lg ${3:Learn more}
