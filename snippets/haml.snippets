@@ -67,3 +67,24 @@ snippet alert
 		${2:Alert body ...}
 snippet badge
 	%span.badge ${1:Badge}
+snippet breadcrumb
+	%ol.breadcrumb
+	  %li
+		%a{:href => "${1:#}"} ${2:Home}
+	  ${3:
+	  %li>
+		%a{:href => "#"} Link
+	  }
+	  %li.active ${4:Current}
+snippet btnblock
+	%button.btn.btn-large.btn-block.btn-default{:type => "button"} button
+snippet btnblockprimary
+	%button.btn.btn-large.btn-block.btn-primary{:type => "button"} button
+snippet btnblocksuccess
+	%button.btn.btn-large.btn-block.btn-success{:type => "button"} button
+snippet btnblockinfo
+	%button.btn.btn-large.btn-block.btn-info{:type => "button"} button
+snippet btnblockwarning
+	%button.btn.btn-large.btn-block.btn-warning{:type => "button"} button
+snippet btnblockdanger
+	%button.btn.btn-large.btn-block.btn-danger{:type => "button"} button
